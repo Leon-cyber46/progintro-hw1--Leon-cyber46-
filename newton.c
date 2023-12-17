@@ -10,14 +10,14 @@ if (argc != 8) {
     printf("Fault\n");
     return 1;
 }
-
-double c = atof(argv[1]);   // μετατρέπει το ορίσματα σε double //
+// μετατρέπει τα ορίσματα σε double //
+double c = atof(argv[1]);   // σταθερός όρος πολυωνύμου //
 double x1 = atof(argv[2]);
-double x2 = atof(argv[3]);
+double x2 = atof(argv[3]); // μικρά ονόματα μεταβλητών λόγω των μεγάλων εξισώσεων //
 double x3 = atof(argv[4]);
 double x4 = atof(argv[5]);
 double x5 = atof(argv[6]);
-double f = atof(argv[7]);
+double f = atof(argv[7]);   // πρώτη ρίζα που δίνουμε απo το terminal //
 
 int j = 0;   // μετρητής επαναλήψεων //
 double temp;   // προσέγγιση της ρίζας //
